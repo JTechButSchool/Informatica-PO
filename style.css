@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+}
+
+body {}
+
+#wrapper {}
+
+#headwrapper {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+
+  box-shadow: 0px 1px 50px grey;
+}
+
+header {
+  display: flex;
+  background-color: #cccccc;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+
+  background-color: #aaaaaa;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  float: left;
+  padding: 20px;
+  padding-right: 35px;
+  padding-left: 35px;
+  margin: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: #dddddd;
+  color: #000000;
+  transition: all 1s ease;
+}
+
+nav a:hover {
+  padding: 45px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #aadaff;
+  color: #ffffff;
+}
+
+main {
+  height: 2000px;
+  margin-top: 200px;
+}
+
+article {
+  background-color: #caf3af;
+  text-align: center;
+  padding: 100px;
+  margin: 50px;
+}
+
+.reveal {
+  clear: both;
+  position: relative;
+  transform: translateY(0);
+  transition: 0.5s all ease;
+}
+
+.reveal.active {
+  float: left;
+  height: 75px;
+}
+
+header.reveal.active {
+  background-color: #aaaaaa;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+nav.reveal.active {
+  float: right;
+  /*width: calc(100% - 110px);*/
+  transform: translateY(-75px);
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: #89d7ef;
+}
+
+.footer-div {
+  box-shadow: 0px 1px 50px grey;
+}
+
+#footer-bottom {
+  height: 150px;
+  background-color: #888888;
+
+  text-align: center;
+  color: white;
+}
+
+#contact {
+  height: 250px;
+  text-align: center;
+}
+
+#contact h2 {
+  color: #5753ff;
+  padding: 10px;
+}
+
+#footer-bottom p {}
