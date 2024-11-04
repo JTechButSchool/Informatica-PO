@@ -29,7 +29,6 @@ nav {
     padding: 2% 6%;
     justify-content: center;
     align-items: center;
-    background-color: #ff0000;
 }
 
 nav img {
@@ -37,8 +36,8 @@ nav img {
 }
 
 .nav-links {
-    flex: 1;
-    text-align: right;
+    /*flex: 1;*/
+    text-align: center;
 }
 
 .nav-links ul li {
