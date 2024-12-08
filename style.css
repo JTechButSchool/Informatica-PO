@@ -1,5 +1,5 @@
 * {
-  margin: 0px;
+  margin: 0;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 #headwrapper {
   width: 100%;
   position: fixed;
-  top: 0px;
+  top: 0;
   z-index: 1;
 
   box-shadow: 0px 1px 50px grey;
@@ -252,4 +252,330 @@ dl dt {
 .blended:hover {
   text-decoration: #6288cd;
   color: #95BBFF;
+}
+
+
+
+.iheader {
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.icontactheader {
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.inav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: center;
+  align-items: center;
+}
+
+.inav img {
+  width: 150px;
+}
+
+.inav-links {
+  text-align: center;
+}
+
+.inav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.inav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.inav-links ul li::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.inav-links ul li:hover::after {
+  width: 100%;
+}
+
+.itext-box {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.itext-box h1 {
+  font-size: 63px;
+}
+
+.imerch-box h1 {
+  font-size: 33px;
+}
+
+.itext-box p {
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.ihero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 12px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.ihero-btn:hover {
+  border: 1px solid #fff;
+  color: black;
+  background: white;
+}
+
+.iwiki-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 12px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.iwiki-btn:hover {
+  border: 1px solid #fff;
+  color: black;
+  background: white;
+}
+
+.inav ion-icon {
+  display: none;
+}
+
+.ifixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  background-repeat: repeat-x;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+.ifixed .icon {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 22px;
+  right: 22px;
+  transition: 1s;
+}
+
+.icontent {
+  margin-top: 57px;
+}
+
+.ifixedtext {
+  position: fixed;
+  bottom: 30px;
+  right: 22px;
+  font-size: 35px;
+  opacity: 0;
+  transition: 1s;
+}
+
+.ifixed:hover .ifixedtext {
+  opacity: 1;
+}
+
+.ifixed:hover {
+  width: 300px;
+  border-radius: 10%;
+}
+
+.ifixedcircle {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+  background: aquamarine;
+  border-radius: 50%;
+  opacity: 1;
+  transition: 1s;
+}
+
+.ifixed:hover .ifixedcircle {
+  transform: translateX(-230px);
+  opacity: 1;
+}
+
+.icontact-us-form-fields {
+  position: absolute;
+  left: 0px;
+  top: 300px;
+  width: 100%;
+  padding: 40px 40px;
+  background: #1E1D1C;
+}
+
+.icontainer .iform .icontact {
+  border-radius: 50px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.ifeatures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  height: 1600px;
+  padding: 70px 0;
+  z-index: 2;
+  background: #302c2a;
+}
+
+.ifeaturetitle {
+  position: relative;
+  text-align: center;
+  z-index: 2;
+  color: #C6C2BF;
+  font-size: 330%;
+  padding: 3%;
+}
+
+.ifeature {
+  margin: 0.5%;
+  padding: 3% 3%;
+  z-index: 2;
+  background: #1E1D1C;
+  border-radius: 10%;
+}
+
+.ifeature h1 {
+  text-align: center;
+  z-index: 2;
+  color: darkgray;
+  font-size: 223%;
+}
+
+.ifeature text {
+  text-align: center;
+  z-index: 2;
+  color: white;
+  font-size: 20px;
+}
+
+.ifeature img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.iconsole, .igames, .iplaying-cards {
+  background: #242322;
+}
+
+.ifeature:hover {
+  border: 1px solid #fff;
+  padding: 4% 4%;
+}
+
+.ireveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.ireveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.ifooter {
+  position: absolute;
+  top: 3200px;
+  right: 0px;
+  width: 100%;
+  height: 320px;
+  background: #FFFFFF;
+}
+
+.ifooter .inav-links {
+  padding: 72px;
+  text-align: center;
+}
+
+.ifooter .inav-links ul li {
+  list-style: none;
+  display: list-item;
+  padding: 6px 12px;
+  position: relative;
+}
+
+.ifooter .inav-links ul li a {
+  color: rgb(139, 139, 139);
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.ifooter .inav-links ul li::after {
+  position: absolute;
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.ifooter .inav-links ul li:hover::after {
+  position: absolute;
+  width: 75%;
+}
+
+.ifooter .itext {
+  position: absolute;
+  bottom: 20px;
+  left: 100px;
+  color: darkgrey;
+  font-size: 12px;
 }

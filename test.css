@@ -9,7 +9,6 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/worldmap.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -18,7 +17,6 @@
 .contactheader {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/contactus.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -54,7 +52,7 @@ nav img {
 
 .nav-links ul li::after {
     content: '';
-    width: 0%;
+    width: 0;
     height: 2px;
     background: #f44336;
     display: block;
@@ -188,8 +186,8 @@ nav ion-icon {
     position: fixed;
     width: 100px;
     height: 100px;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
     z-index: 1;
     background: aquamarine;
     border-radius: 50%;
@@ -240,7 +238,7 @@ input[type=submit] {
 
 .contact-us-form-fields {
     position: absolute;
-    left: 0px;
+    left: 0;
     top: 300px;
     width: 100%;
     padding: 40px 40px;
@@ -338,7 +336,7 @@ input[type=submit]:hover {
 .footer {
     position: absolute;
     top: 2500px;
-    right: 0px;
+    right: 0;
     width: 100%;
     height: 320px;
     background: #FFFFFF;
@@ -365,7 +363,7 @@ input[type=submit]:hover {
 .footer .nav-links ul li::after {
     position: absolute;
     content: '';
-    width: 0%;
+    width: 0;
     height: 2px;
     background: #f44336;
     display: block;
